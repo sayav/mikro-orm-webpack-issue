@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es2017", "dom"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "target": "es6",
+    "sourceMap": false,
+    "outDir": "./dist"
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
